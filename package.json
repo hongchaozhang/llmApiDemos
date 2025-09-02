@@ -1,0 +1,33 @@
+{
+  "name": "deepseek-api-demo",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "demo:deepseek": "node src/deepseek/demo.js",
+    "demo:aigc2d": "node src/aigc2d/demo.js",
+    "demo:multimedia": "node src/aigc2d/multimedia-demo.js",
+    "test:deepseek-chat": "node src/deepseek/test-basic-chat.js",
+    "test:deepseek-reasoner": "node src/deepseek/test-reasoner.js",
+    "test:deepseek-stream": "node src/deepseek/test-stream.js",
+    "test:gpt35": "node src/aigc2d/test-gpt35.js",
+    "test:gpt4o-mini": "node src/aigc2d/test-gpt4o-mini.js",
+    "test:aigc2d-stream": "node src/aigc2d/test-stream.js",
+    "test:models-comparison": "node src/aigc2d/test-models-comparison.js",
+    "test:tts": "node src/aigc2d/test-text-to-speech.js",
+    "test:stt": "node src/aigc2d/test-speech-to-text.js",
+    "test:image-gen": "node src/aigc2d/test-image-generation.js",
+    "test:vision": "node src/aigc2d/test-vision.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "fs-extra": "^11.3.1",
+    "openai": "^5.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+
+# Generated multimedia files
+src/aigc2d/outputs/
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
