@@ -20,7 +20,7 @@ const config = {
     dalle3: 'dall-e-3',
     
     // Speech
-    tts: 'tts-1',
+    tts: 'TTS',
     tts_hd: 'tts-1-hd',
     whisper: 'whisper-1'
   }
