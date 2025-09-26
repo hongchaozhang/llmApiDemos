@@ -14,6 +14,7 @@
     "test:qwen-chat": "node src/qwen/test-basic-chat.js",
     "test:qwen-stream": "node src/qwen/test-stream.js",
     "test:qwen-tts": "node src/qwen/test-tts.js",
+    "test:claude-tts": "node src/qwen/test-claude-tts.js",
     "test:gpt35": "node src/aigc2d/test-gpt35.js",
     "test:gpt4o-mini": "node src/aigc2d/test-gpt4o-mini.js",
     "test:aigc2d-stream": "node src/aigc2d/test-stream.js",
@@ -21,7 +22,8 @@
     "test:tts": "node src/aigc2d/test-text-to-speech.js",
     "test:stt": "node src/aigc2d/test-speech-to-text.js",
     "test:image-gen": "node src/aigc2d/test-image-generation.js",
-    "test:vision": "node src/aigc2d/test-vision.js"
+    "test:vision": "node src/aigc2d/test-vision.js",
+    "test:kimi-chat": "node src/kimi/test-chat.js"
   },
   "dependencies": {
     "axios": "^1.11.0",
